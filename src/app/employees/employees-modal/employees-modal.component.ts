@@ -1,7 +1,7 @@
 import { Component, Inject, OnInit } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { MatSelectChange } from '@angular/material/select';
-import { employeeModalData } from './employee.modal-types';
+import { employeeModalData } from './employee-modal-types';
 
 @Component({
   selector: 'app-employee-modal',

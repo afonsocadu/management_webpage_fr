@@ -10,6 +10,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatInputModule } from '@angular/material/input';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { EmployeeModalComponent } from './employees-modal/employees-modal.component';
 
 
 @NgModule({
@@ -30,8 +31,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   ],
   exports: [
     EmployeesComponent,
-    //EmployeeModalComponent,
-    //TechnologiesAssociatedComponent
+    EmployeeModalComponent,
+    TechnologiesAssociatedComponent
   ]
 })
 export class EmployeesModule { }
